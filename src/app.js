@@ -31,7 +31,6 @@ newArr = pronoun
       .map((element1) =>
         noun.map((element2) => element + element1 + element2 + ".com")
       )
-      .flat()
   )
-  .flat();
+  .flat(3);
 console.log(newArr);
